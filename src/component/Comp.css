@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+.header{
+    margin-top: 1rem;
+}
+
+.balance{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.balance>:nth-child(2){
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.inc-exp-container{
+    display: flex;
+    box-shadow: 1px 2px 3px rgb(104, 103, 103);
+    height: 50px;
+    padding: 15px 0;
+}
+
+
+.inc-exp-container>:nth-child(1){
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(182, 179, 179);
+    
+    
+}
+
+.income>h2{
+    font-weight: 500;
+}
+
+.expense>h2{
+    font-weight: 500;
+}
+
+.money-plus{
+    color: rgb(6, 214, 6);
+
+}
+
+.money-minus{
+    color: red;
+
+}
+
+.inc-exp-container>:nth-child(2){
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trans-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+}
+
+.trans-list>:nth-child(1){
+    border-bottom: 1px solid rgb(189, 188, 188);
+    padding-bottom: 8px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    
+}
+
+.trans{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    margin-left: -2.6rem;
+    /* padding-left: 0.6rem; */
+    /* height: 2rem; */
+    align-items: center;
+    padding: 0.6rem ;
+    border-right: 5px solid red ;
+}
+
+.plus{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    margin-left: -2.6rem;
+    /* padding-left: 0.6rem; */
+    /* height: 2rem; */
+    align-items: center;
+    padding: 0.6rem ;
+    border-right: 5px solid green ;
+}
+
+/* .trans .delete-button{
+background: red;
+height: 100%;
+border: none;
+width: 5px;
+
+} */
+
+/* .list>:nth-child(1){
+    border-right: 5px solid rgb(6, 214, 6);
+}
+
+.list>:nth-child(2){
+    border-right: 5px solid red;
+}
+
+.list>:nth-child(3){
+    border-right: 5px solid red;
+} */
+
+.add-trans{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-trans>:nth-child(1){
+    border-bottom: 1px solid rgb(189, 188, 188);
+    margin: 1rem 0;
+    padding-bottom: 0.3rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.btn{
+    align-self: center;
+    width: 100%;
+    padding: 0.5rem;
+    background: rgb(51, 8, 121);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-left: 6px;
+}
